@@ -19,7 +19,7 @@
 
         <div class="row">
             <div class="large-12 columns">
-               <nav data-topbar role="navigation" class="topbar">
+               <nav class="top-bar" data-topbar role="navigation">
                     <section class="top-bar-section">
                         <ul class="left">
                             <li><a href="/">Home</a></li>
@@ -31,7 +31,11 @@
             </div>            
         </div>
 
-        {+body /}
+        <div class="row">
+            <div class="large-12 columns">
+               {+body /}
+            </div>            
+        </div>                
 
         <footer>
             <div class="row">

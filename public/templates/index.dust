@@ -1,5 +1,36 @@
 {>"layouts/master" /}
 
 {<body}
-    <h1>Hello, {name}</h1>
+    <div class="large-3 columns book">
+        <img src="/img/node1.png" alt="">
+        <h4>Node.js Design Patterns</h4>
+        <p>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+        <div class="price">Buy it for <span>PKR 19.99</span></div>
+        <br>
+        <a class="button small" href="/books/details/1">Books Details</a>
+    </div>
+    <div class="large-3 columns book">
+        <img src="/img/node2.jpg" alt="">
+        <h4>Node.js by Example</h4>
+        <p>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+        <div class="price">Buy it for <span>PKR 19.99</span></div>
+        <br>
+        <a class="button small" href="/books/details/1">Books Details</a>
+    </div>
+    <div class="large-3 columns book">
+        <img src="/img/mongo3.jpeg" alt="">
+        <h4>Practical MongoDB</h4>
+        <p>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+        <div class="price">Buy it for <span>PKR 19.99</span></div>
+        <br>
+        <a class="button small" href="/books/details/1">Books Details</a>
+    </div>
+    <div class="large-3 columns book">
+        <img src="/img/php3.jpg" alt="">
+        <h4>PHP: The Complete Reference</h4>
+        <p>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+        <div class="price">Buy it for <span>PKR 19.99</span></div>
+        <br>
+        <a class="button small" href="/books/details/1">Books Details</a>
+    </div>
 {/body}
